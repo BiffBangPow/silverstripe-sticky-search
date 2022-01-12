@@ -1,0 +1,8 @@
+---
+Name: stickysearch
+Only:
+  moduleexists: 'silverstripe/cms'
+---
+SilverStripe\Admin\LeftAndMain:
+  extra_requirements_css:
+    - 'biffbangpow/silverstripe-sticky-search:client/dist/styles/sticky_search.css'

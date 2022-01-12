@@ -1,6 +1,6 @@
 {
-  "name": "biffbangpow/silverstripe-extensionmodule-template",
-  "description": "A basic skeleton for a Silverstripe 4 extension module",
+  "name": "biffbangpow/silverstripe-sticky-search",
+  "description": "A simple module to make the search bar in Silverstripe CMS sticky",
   "type": "silverstripe-vendormodule",
   "minimum-stability": "dev",
   "license": "proprietary",
@@ -18,11 +18,9 @@
     "silverstripe/vendor-plugin": "^1.0",
     "silverstripe/cms": "^4"
   },
-  "autoload": {
-    "psr-4": {
-      "BiffBangPow\\Extension\\": "src/"
-    }
-  },
   "extra": {
+      "expose": [
+          "client/dist"
+      ]
   }
 }
